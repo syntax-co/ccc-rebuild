@@ -1,6 +1,6 @@
 import { ethers } from "ethers";
 import { useEffect, useRef, useState } from "react";
-import * as Baker from './tools/cookie-functions.js';
+import * as Baker from '../tools/cookie-functions.js';
 
 
 import NotLoggedIn from "./components/misc/logInNotice.js";

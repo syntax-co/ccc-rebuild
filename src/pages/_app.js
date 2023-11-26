@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import MobileBackground from './components/backgrounds/mobilebackground';
 import {motion} from 'framer-motion';
 
-import * as Baker from './tools/cookie-functions.js';
+import * as Baker from '../tools/cookie-functions.js';
 
 
 

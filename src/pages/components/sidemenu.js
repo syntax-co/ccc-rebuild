@@ -14,7 +14,7 @@ import SocialItem from './misc/socialButtons';
 import LoggedInOptions from './userComps/loggedInOptions';
 import LoggedOutOptions from './userComps/loggedOutOptions';
 
-import * as Baker from  '../tools/cookie-functions.js';
+import * as Baker from  '../../tools/cookie-functions.js';
 
 
 

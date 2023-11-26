@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 
-import * as Baker from '../../tools/cookie-functions.js';
+import * as Baker from '../../../tools/cookie-functions.js';
 
 
 
