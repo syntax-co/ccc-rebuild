@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+.index-main-body {
+    @apply
+    w-full h-full relative
+    
+    sm:block
+    md:block
+    lg:block 
+    xl:block
+
+
+    ;
+}
+
+
+
+
+.section-1 {
+    @apply
+    w-full h-full items-center
+    flex flex-col justify-end relative
+    overflow-hidden
+    /* bg-white */
+    ;
+}
+
+.section-1-inner-body {
+    @apply
+    flex flex-1
+    w-full
+    sm:flex-col
+    md:flex-col
+    lg:flex-row
+    xl:flex-row
+
+    ;
+}
+
+
+.sign-holder {
+    @apply
+    w-2/5
+
+    sm:h-full
+    md:h-full
+    lg:h-full
+    xl:h-full
+
+    ;
+}
+
+.welcome-sign-holder {
+    @apply
+    mt-5 w-full
+    sm:h-[18vh]
+    md:h-[18vh]
+    lg:h-[23vh]
+    xl:h-[23vh]
+    ;
+}
+
+.ccc-sign-holder {
+    @apply
+    w-full  mt-1 mb-10
+    
+    sm:h-[25%]
+    md:h-[25%]
+    lg:h-[33%]
+    xl:h-[33%]
+    ;
+}
+
+.coin-viewer {
+    @apply
+    w-full h-[40%]
+    
+    sm:h-[40%]
+    md:h-[40%]
+    lg:h-[30%]
+    xl:h-[30%]
+
+    ;
+}
+
+
+.glass-card {
+    @apply
+    w-[500px] p-6 bg-[#ffffff55] 
+    rounded-md text-white text-2xl 
+    my-2
+    ;
+}

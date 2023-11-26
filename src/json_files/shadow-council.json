@@ -1,0 +1,27 @@
+{
+    "the-chairman":{
+        "title":"The chairman",
+        "image":"./images/1.png",
+        "text":"Mr. Moneybag`s himself, the artist who created CCC. I'll steal your kidneys and feed them to your mother for fun.",
+        "model":"https://prod.spline.design/CgeG0tcsaXpMF6JG/scene.splinecode"
+        
+    },
+    "the-ceo":{
+        "title":"The CEO",
+        "image":"./images/2.png",
+        "text":"Code monkey extraordinaire, let's get technical. I'd kill a baby just to make sure adrenochrome wasn't a real thing.",
+        "model":"https://prod.spline.design/CO2JW21WwJrBwfrG/scene.splinecode"
+    },
+    "the-president":{
+        "title":"The President",
+        "image":"./images/893.png",
+        "text":"Able to use Twitter. What's all this hoopla about \"human rights\"?",
+        "model":"https://prod.spline.design/E5M6uqcAUhYMSQ7S/scene.splinecode"
+    },
+    "the-director":{
+        "title":"The Director",
+        "image":"./images/2541.png",
+        "text":"In charge of just about everything else. We really should bring back child labor.",
+        "model":"https://prod.spline.design/fIukXq-g3YARRoB1/scene.splinecode"
+    }
+}

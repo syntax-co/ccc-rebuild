@@ -1,0 +1,27 @@
+{
+    "home":{
+        "title":"Home",
+        "path":"/",
+        "area":0
+    },
+    "about":{
+        "title":"About",
+        "path":"/about",
+        "area":0
+    },
+    "roadmap":{
+        "title":"Road Map",
+        "path":"/roadmap",
+        "area":0
+    },
+    "governance":{
+        "title":"Governance",
+        "path":"/governance",
+        "area":0
+    },
+    "mint":{
+        "title":"DashBoard",
+        "path":"/memberDash",
+        "area":1
+    }
+}

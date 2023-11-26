@@ -9,11 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.490",
     "autoprefixer": "10.4.14",
-    "next": "13.4.13",
-    "postcss": "8.4.27",
+    "chart.js": "^4.4.0",
+    "ethers": "^6.8.1",
+    "framer-motion": "^10.16.4",
+    "hamburger-react": "^2.5.0",
+    "mongoose": "^8.0.0",
+    "next": "^13.5.6",
+    "postcss": "^8.4.31",
     "react": "18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.11.0",
     "tailwindcss": "3.3.3"
   }
 }
