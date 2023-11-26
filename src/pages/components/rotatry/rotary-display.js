@@ -31,7 +31,8 @@ const Rotar = ({
                 }}
                 >
                     
-                {
+                {   
+                    valueOptions &&
                     valueOptions.map((item,dex) => {
                         
                         return(
@@ -62,12 +63,12 @@ const RotaryDisplay = ({display,valueOptions}) => {
         <div className="flex my-0"
             >
             <Rotar 
-            value={display[0]}
+            value={display && display[0]}
             valueOptions={valueOptions}
             name={'rotary-1'}
             />
             <Rotar 
-            value={display[1]}
+            value={display && display[1]}
             valueOptions={valueOptions}
             name={'rotary-2'}
             />
@@ -76,17 +77,17 @@ const RotaryDisplay = ({display,valueOptions}) => {
             ,
             </div>
             <Rotar 
-            value={display[2]}
+            value={display && display[2]}
             valueOptions={valueOptions}
             name={'rotary-3'}
             />
             <Rotar 
-            value={display[3]}
+            value={display && display[3]}
             valueOptions={valueOptions}
             name={'rotary-4'}
             />
             <Rotar 
-            value={display[4]}
+            value={display && display[4]}
             valueOptions={valueOptions}
             name={'rotary-5'}
             />

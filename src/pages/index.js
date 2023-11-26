@@ -18,7 +18,7 @@ export default function Home() {
   const [viewingLore,setViewingLore] = useState(false);
   const [loreState,setLoreState] = useState(true);
 
-  const [currentLore,setCurrentLore] = useState([]);
+  const [currentLore,setCurrentLore] = useState(['']);
   const [awake,setAwake] = useState([0,0,0,0,0]);
   const [frozen,setFrozen] = useState([0,0,0,0,0]);
   const [dead,setDead] = useState([0,0,0,0,0]);

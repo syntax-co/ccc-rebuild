@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 
 const NowThen = ({loreState,setLoreState,currentLore,setLore}) => {
+    console.log(currentLore);
     return (
         <motion.div className="w-full flex-1 text-white overflow-hidden"
         initial={{opacity:0}}
@@ -67,14 +68,15 @@ const NowThen = ({loreState,setLoreState,currentLore,setLore}) => {
             <div className="w-9/12 h-[90%] font-primary text-xl" 
             >
                 {
-                currentLore.map((item,dex) => { 
+                    currentLore &&
+                    currentLore.map((item,dex) => { 
 
-                    return(
-                    <div key={'lore-text-'+dex} >
-                        {item}
-                    </div>
-                    )
-                })
+                        return(
+                        <div key={'lore-text-'+dex} >
+                            {item}
+                        </div>
+                        )
+                    })
                 }
             </div>
             </div>
