@@ -14,11 +14,17 @@ export default function App({ Component, pageProps }) {
   const [open,setOpen] = useState(false);
   
 
-  
+  const init = () => {
+    
+    // Baker.setCookie('{}')
+    // console.log('hit')
+    // Baker.resetCookieData();
+    Baker.checkForCookie();
+  }
 
 
   useEffect(() => {
-    Baker.checkForCookie();
+    init();
   }, []);
 
   return(

@@ -75,13 +75,23 @@ export function checkCookie() {
 
 // will need to ask for cookie permision and 
 // also check if they allow cookies
-export function checkForCookie() {
+export async function checkForCookie() {
 
     // check if it exists
     const check = checkCookie();
 
+
+
     if (!check) {
         setCookie(JSON.stringify(_initialCookie));
+    } else {
+        const current =  Object.keys(await getFormatedData());
+        const wanted = Object.keys(_initialCookie);
+
+        if (current.toString() != wanted.toString()) {
+            resetCookieData(); 
+        }
+
     }
 
 }
