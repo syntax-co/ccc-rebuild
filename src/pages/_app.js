@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }) {
 
 
   useEffect(() => {
-
+    Baker.checkForCookie();
   }, []);
 
   return(
