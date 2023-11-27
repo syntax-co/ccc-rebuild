@@ -81,7 +81,7 @@ export function checkForCookie() {
     const check = checkCookie();
 
     if (!check) {
-        setCookie(_cookieName,JSON.stringify(_initialCookie));
+        setCookie(JSON.stringify(_initialCookie));
     }
 
 }
