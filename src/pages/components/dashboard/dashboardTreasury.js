@@ -189,7 +189,7 @@ const DashboardTreasury = () => {
                                         $ 20.25
                                     </div>
                                     
-                                    <div className="flex-1"
+                                    <div className="h-[90%] w-full    "
                                     >
                                         <StonksGraph dataSample={1} />
                                     </div>
