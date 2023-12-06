@@ -80,7 +80,7 @@ const About = () => {
                     <div className="h-full w-1/3 flex items-center justify-center "
                     >
                         <div className="w-5/6 h-5/6 " >
-                            The Cutthroat Country Club will hold 1,000 still frozen members in its community treasury. Every week, the 
+                            &emsp;The Cutthroat Country Club will hold 1,000 still frozen members in its community treasury. Every week, the 
                             club will vote on whether or not they will awaken another sleeper to join the eternal battle, kill them to 
                             prevent entry forever, or ignore them for now. If the CCC chooses to awaken, a random NFT from the reserve 
                             will be "awoken" and sold with 100% of the proceeds going to the Cutthroat Country Club Treasury for MORE
@@ -97,7 +97,7 @@ const About = () => {
                             <br />
                             <br />
 
-                            Being a member of the Cutthroat Country Club also grants exclusive early access to future NFT collections 
+                            &emsp;Being a member of the Cutthroat Country Club also grants exclusive early access to future NFT collections 
                             released by the Shadow Council, which is uh, pretty nifty.
                         </div>
                     </div>
