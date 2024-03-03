@@ -84,7 +84,12 @@ export default function App({ Component, pageProps }) {
 
           
 
-          <div className='text-lg px-1 font-primary mt-6 leading-8'
+          <div className='text-lg px-1 font-primary mt-6 leading-8
+          sm:flex
+          md:flex
+          lg:hidden
+          xl:hidden
+          '
           >
             This version of the website is heavily
             underconstruction and currently does not 
