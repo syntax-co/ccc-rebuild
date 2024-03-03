@@ -100,9 +100,7 @@ export async function checkForCookie() {
 // will need to ask for cookie permision and 
 // also check if they allow cookies
 export function resetCookieData() {
-
-
     setCookie(JSON.stringify(_initialCookie));
-
 }
+
 

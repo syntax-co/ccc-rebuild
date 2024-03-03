@@ -32,6 +32,7 @@ const SideMenu = ({open,setOpen}) => {
 
     const forcedRefresh = async() => {
         const data = await Baker.getFormatedData();
+        console.log(data);
         return data.forcedRefresh;
     }
 
@@ -73,8 +74,17 @@ const SideMenu = ({open,setOpen}) => {
 
 
     const startupCheck = async() => {
-        const check1 = await forcedRefresh();
-        const check2 = await loggedIn();
+        const cookieCheck = Baker.checkCookie();
+        
+        if (!cookieCheck) {
+            Baker.resetCookieData();
+        }
+
+        var check1 = await forcedRefresh();
+        var check2 = await loggedIn();
+
+
+        
         
         if (check2 && !currentSigner) {
             await _init_signer();

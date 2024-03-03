@@ -45,7 +45,12 @@ export default function App({ Component, pageProps }) {
       
       
 
-      <motion.div className='w-full h-full flex absolute overflow-show'
+      <motion.div className='w-full h-full flex absolute overflow-show
+      sm:hidden
+      md:hidden
+      lg:flex
+      xl:flex
+      '
       initial={{right:0}}
       animate={{
         right:open? '500px':0
@@ -63,6 +68,36 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </motion.div>
       </motion.div>
+
+      <div className='w-full h-[92vh] bg-glass-gray absolute bottom-0
+      flex items-center justify-center'
+      >
+        
+        <div className='w-5/6 h-3/6 text-white
+        flex flex-col'
+        >
+
+          <div className=' font-display text-7xl py-3'
+          >
+            Welcome!
+          </div>
+
+          
+
+          <div className='text-lg px-1 font-primary mt-6 leading-8'
+          >
+            This version of the website is heavily
+            underconstruction and currently does not 
+            support mobile view.
+          </div>
+
+          
+
+
+        </div>
+
+      </div>
+
     </div>
   )
   
