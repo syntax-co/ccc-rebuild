@@ -68,9 +68,15 @@ export default function App({ Component, pageProps }) {
           <Component {...pageProps} />
         </motion.div>
       </motion.div>
-
+      
       <div className='w-full h-[92vh] bg-glass-gray absolute bottom-0
-      flex items-center justify-center'
+      items-center justify-center
+      
+      sm:flex
+      md:flex
+      lg:hidden
+      xl:hidden
+      '
       >
         
         <div className='w-5/6 h-3/6 text-white
@@ -84,11 +90,8 @@ export default function App({ Component, pageProps }) {
 
           
 
-          <div className='text-lg px-1 font-primary mt-6 leading-8
-          sm:flex
-          md:flex
-          lg:hidden
-          xl:hidden
+          <div className='text-lg px-1 font-primary mt-6 leading-8 flex
+          
           '
           >
             This version of the website is heavily
